@@ -1,0 +1,191 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar{
+    margin-bottom: 20px;
+    background-color:#28a745;
+}
+.color-navard{
+    background-color:#28a745 !important;
+}
+
+.navbar-brand h1{
+    color: #F8F9FA;
+}
+
+.navbar-brand img{
+    height: 63px;
+}
+
+.container-fluid{
+    background-color:#28a745;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /*padding: 0 34px 0;*/
+}
+
+.m-button{
+    padding-bottom: 20px;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    display: grid !important;
+    justify-content: end;
+}
+
+.menu ul{
+    display: flex;
+    gap: 16px;
+    align-self: center;
+    list-style: none;
+    color: #F8F9FA;
+}
+
+.card-body{
+    margin-top: 30px;
+}
+
+.card img{
+    border-radius: 10px 10px 0 0;
+}
+
+.card-descripcion{
+    padding: 20px;
+}
+
+.card-descripcion h5{
+    color: #212529;
+    margin-bottom: 13px;
+}
+
+.card-descripcion p:nth-child(1){
+    margin-bottom: 0;
+    color: #707070;
+}
+
+.card-descripcion p:nth-child(2){
+    color: #707070;
+    margin-bottom: 0;
+}
+
+.card-descripcion p:nth-child(3){
+    color: #707070;
+}
+
+.precio{
+    border-top: 1px solid #707070A0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.precio p{
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: end;
+    gap: 7px;
+    margin-bottom: 14px;
+    color: #707070;
+}
+
+.precio h2{
+    margin-top: 9px;
+    color: #28A745;
+}
+
+form{
+    text-align: center;
+    margin-bottom: 29px;
+    background-color: #28a745;
+    margin-top: 20px;
+}
+
+form label:nth-child(1){
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.contenedor-formulario{
+    padding: 25px 0;
+}
+
+.contenedor-formulario label{
+    color: #FFFFFF;
+}
+
+.form-floating{
+    margin-bottom: 15px;
+}
+
+.form-floating label{
+    color: #707070;
+}
+
+.btn{
+    border-color: #DDDDDD;
+    background-color: #F8F9FA;
+    color: #212529;
+}
+
+footer{
+    text-align: center;
+}
+
+footer img{
+    height: 63px;
+}
+
+footer h2{
+    font-weight: bold;
+}
+
+footer p{
+    color: #707070;
+}
+
+@media (max-width:420px) {
+    .menu{
+        display: none;
+    }
+
+    .navbar-expand-lg .navbar-collapse{
+        display: none !important;
+    }
+}
+
+
+
+@media (max-width:991px) {
+    .navbar-expand-lg .navbar-collapse{
+        background-color: blue;
+        display: none !important;
+    }
+
+    .navbar-brand img{
+        height: 32px;
+    }
+    
+    footer div img{
+        height: 32px;
+    }
+}
+
+@media (max-width:420px) {
+    form label:nth-child(1) {
+        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+
+    
+    .contenedor-formulario {
+        padding: 25px 26px;
+    }
+
+    .btn btn-secondary btn-lg{
+        width: 100%;
+    
+    }
+}

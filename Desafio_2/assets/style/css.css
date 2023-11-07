@@ -1,0 +1,43 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    background-image: url('https://media.istockphoto.com/id/1478774800/es/foto/enfoque-selectivo-en-la-mano-humana-mientras-escribe-o-ingresa-un-comando-para-navegar-por.jpg?s=612x612&w=0&k=20&c=cnr9wlNye11azMr-PCTbjL7MnXYaJAdOIsaE0jCiofM=');
+    padding: 2rem; /* mencionar que 1rem equivale a 16px */
+    margin: 0 0 25px;
+}
+
+
+.titulo{
+    margin-bottom: 0;
+    color: #fff;
+}
+
+
+.header p{   /* indicamos que cambie el color del parrafo que esta dentro del padre: class="header" */
+    margin-top: 0;
+    color: #fff;
+}
+
+
+.productos{
+    padding: 50px;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+.foorter{
+    background-image: url('https://media.istockphoto.com/id/1478774800/es/foto/enfoque-selectivo-en-la-mano-humana-mientras-escribe-o-ingresa-un-comando-para-navegar-por.jpg?s=612x612&w=0&k=20&c=cnr9wlNye11azMr-PCTbjL7MnXYaJAdOIsaE0jCiofM=');
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+}
